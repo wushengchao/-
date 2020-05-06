@@ -1,0 +1,26 @@
+@charset 'utf-8';
+body{
+	margin:0;
+}
+table{
+	margin:0 auto;
+	width:100%;
+	border-spacing:;
+}
+.header{
+	height:120px;
+	background-color:olive;
+}
+.aside{
+	width:260px;
+	height:400px;
+	background:red;
+	
+}
+.section{
+	background:green;
+}
+.footer{
+	height:120px;
+	background-color:silver;
+}

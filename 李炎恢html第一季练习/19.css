@@ -1,0 +1,19 @@
+@charset "utf-8";
+p{
+	font-size:50px;
+	background:silver;
+	/*text-decoration:underline;//下划线
+	text-decoration:overline;//上划线
+	text-decoration:line-through;//中间线
+	text-transform:uppercase;//转大写
+	text-transform:lowercase;
+	text-transform:capitalize;//首字母大写*/
+	text-shadow:5px 5px 5px red;
+	line-height:150%;
+	/*word-wrap:break-word;//拆分英文换行*/
+	text-align:left;
+	text-indent:40px;
+	}
+a{
+	text-decoration:none;
+}

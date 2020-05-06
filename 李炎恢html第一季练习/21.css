@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+div{
+	background:silver;
+	width:200px;
+	height:200px;
+	/* visibility:hidden; */
+	/* visibility:visible;默认 */
+	/* visibility:collapse; 隐藏除表格与hidden效果一样*/
+}
+#a{
+	background:yellow;
+	width:200px;
+	height:200px;
+	display:inline;
+}
+#b{
+	background:yellow;
+	width:200px;
+	height:200px;
+	display:inline-block;
+}
+span{
+	background:red;
+	width:200px;
+	height:200px;
+	display:block;
+}
+/* float:left,right;浮动 */
+/* clear:left,right,both;清理浮动 */

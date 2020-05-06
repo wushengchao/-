@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>博客管理</title>
+	<link rel="stylesheet" type="text/css" href="css/user_admin.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src=""></script>
+
+</head>
+<body>
+	<aside>
+		<ul>
+			<li class="quantity">用户量</li>
+			<li class="users">用户列表</li>
+		</ul>
+	</aside>
+	<section>
+		<div class="list user-quantity">
+			<h2>当前用户总量：<em>12342</em> 人</h2>
+			<h2>今日新增用户：<em>42</em>    人</h2>
+		</div>
+		<div class="list user-list">
+			<table cellpadding="5" cellspacing="0" >
+				<tr>
+					<th width="100">用户ID</th>
+					<th width="100">用户名</th>
+					<th width="100">密码</th>
+				</tr>
+				<tr>
+					<td >1000</td>
+					<td >wsc</td>
+					<td >wsc123</td>
+				</tr>
+				<tr>
+					<td >1000</td>
+					<td >wsc</td>
+					<td >wsc123</td>
+				</tr>
+				<tr>
+					<td >1000</td>
+					<td >wsc</td>
+					<td >wsc123</td>
+				</tr>
+				<tr>
+					<td >1000</td>
+					<td >wsc</td>
+					<td >wsc123</td>
+				</tr>
+				<tr>
+					<td >1000</td>
+					<td >wsc</td>
+					<td >wsc123</td>
+				</tr>
+				<tr>
+					<td >1000</td>
+					<td >wsc</td>
+					<td >wsc123</td>
+				</tr>
+				<tr>
+					<td >1000</td>
+					<td >wsc</td>
+					<td >wsc123</td>
+				</tr>
+				<tr>
+					<td >1000</td>
+					<td >wsc</td>
+					<td >wsc123</td>
+				</tr>
+			</table>	
+		</div>
+	</section>
+	<script type="text/javascript">
+		$(function(){
+			$("aside .quantity").click(function(){
+				$("aside .quantity").css('color','red');
+				$("aside .users").css('color','#2F6982');
+				$("section .user-quantity").show('slow');
+				$("section .user-list").hide('slow');
+			});
+			$("aside .users").click(function(){
+				$("aside .users").css('color','red');
+				$("aside .quantity").css('color','#2F6982');
+				$("section .user-list").show('slow');
+				$("section .user-quantity").hide('slow');
+			});
+		});	
+	</script>
+	
+</body>
+</html>

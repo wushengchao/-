@@ -1,0 +1,309 @@
+@charset "utf-8";
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+}
+body{
+	background-color:#fff;
+	/* font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft YaHei",SimHei,"宋体",simsun,sans-serif; */
+}
+ul {
+	list-style:none;
+}
+img{
+	border:none;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+#header{
+	background:url(../images/top_bg.jpg) repeat-x;
+	height:452px;	
+}
+#header .center{
+	width:980px;
+	height:400px;
+	margin:0 auto;
+}
+#header .top{
+	height:98px;
+}
+#header .logo{
+	padding:20px 0 0 25px;
+	width:291px;
+	float:left;	/*让search浮动到右边*/
+}
+#header .logo h1{
+	float:right;
+	color:#ccc;
+	
+}
+#header .search{
+	float:right;
+	padding:35px 20px 0 0;
+}
+#header .search .text{
+	width:180px;
+	height:15px;
+	background:#161B1F;
+	color:#BCBCBC;
+	border:1px solid #0B0E10;
+	padding:5px 5px 5px 15px;
+}
+#header .search  .submit{
+	width:80px;
+	height:28px;
+	cursor:pointer; /* 手 */
+	margin-left:15px;
+}
+#header .nav{
+	height:53px;
+}
+#header .nav ul{
+	padding:2px 0 0 15px;
+	color:#333;
+}
+#header .nav li{
+	display:inline-block;
+}
+#header .nav li a{
+	color:black;
+	font-size:13px;
+	font-weight:bold;
+	display:block;
+	width:103px;
+	height:27px;
+	text-align:center;
+	line-height:27px;
+	margin:10px 0 0 0;
+}
+#header .nav ul li a:hover {
+	background:url(../images/hover.png);
+	color:#ffffff;
+	text-decoration:none;
+}
+#header .runplay{
+	height:301px;
+	background:url(../images/runplay_bg.jpg) no-repeat;
+	margin:0 auto;
+}
+#header .runplay .left{
+	width:300px;
+	float:left;
+	margin:50px 0 0 30px;
+	display:inline;
+}
+#header .runplay .right {
+	width:300px;
+	float:left;
+	margin:50px 0 0 80px;
+	display:inline;
+}
+#header .runplay .right dl dt {
+	font-size:24px;
+	margin:0 0 20px 0;
+	color:#ffffff
+}
+#header .runplay .right dl dd.txt {
+	font-size:16px;
+	color:#ffffff;
+	margin:0 0 20px 0;
+}
+#header .runplay .right dl dd.btn a {
+	background:url(../images/default.png);
+	display:block;
+	width:103px;
+	height:27px;
+	text-align:center;
+	line-height:27px;
+	color:#ffffff;
+	/* text-decoration:none; */
+	font-weight:bold;
+}
+#header .runplay .right dl dd.btn a:hover {
+	background:url(../images/d_hover.png);
+}
+
+#main{
+	background:url(../images/main_top_bg.jpg) repeat-x;
+}
+
+#container{
+	background:url(../images/main1_bottom_bg.jpg) 0px bottom repeat-x;
+}
+#wrap{
+	width:920px;
+	height:850px;
+	margin:0 auto;
+}
+#wrap .leftBody{
+	width:620px;
+	height:850px;
+	float:left;
+}
+#wrap .rightBody{
+	width:240px;
+	height:850px;
+	float:right;
+}
+#main h1{
+	color:#000000;
+	font-size:24px;
+	font-weight:normal;
+	margin:25px 0 20px 0;
+}
+#wrap .leftBody hgroup h3{
+	color:#555555;
+	font-weight:normal;
+}
+#wrap .leftBody .figure h1{
+	color:#000000;
+	font-size:24px;
+	font-weight:normal;
+	margin:30px 0 20px 0;
+}
+#wrap .leftBody  figure{
+	width:270px;
+	height:170px;
+	background:#F1F2EA;
+	border:1px solid #D5D7CA;
+	padding:6px;
+	float:left;
+	margin:0 20px 25px 0;
+}
+#wrap .leftBody  figcaption{
+	font-size:16px;
+	color:#000000;
+	margin-top:10px;
+	font-weight:bold;
+}
+#wrap .leftBody .more{
+	clear:both;
+}
+#wrap .leftBody .more a{
+	background:url(../images/default.png);
+	display:block;
+	width:103px;
+	height:27px;
+	text-align:center;
+	line-height:27px;
+	color:#ffffff;
+	font-weight:bold;
+}
+#wrap .leftBody .more a:hover{
+	background:url(../images/d_hover.png);
+}
+#wrap .rightTop h1{
+	margin-bottom:0;
+}
+#wrap .rightTop li{
+	border-bottom:1px dashed #ccc;
+	padding:15px 0 8px;
+}
+#wrap .rightTop h3 a{
+	color:#0074c5;
+	font-weight:normal;
+	text-decoration:underline;
+}
+#wrap .rightTop h3 a:hover{
+	color:#009900;
+}
+#wrap .rightTop p{
+	color:#555;
+	padding:5px 0;
+	line-height:20px;
+}
+#wrap .rightBottom dl{
+	margin:20px 0 0 0;
+	height:70px;
+	padding:25px 0 0 0;
+}
+
+#wrap .rightBottom .dl1{
+	background:url(../images/twitter.png) 160px center no-repeat;
+}
+
+#wrap .rightBottom .dl1{
+	background:url(../images/twitter.png) 160px center no-repeat;
+}
+#wrap .rightBottom .dl2{
+	background:url(../images/rss.png) 160px center no-repeat;
+}
+#wrap .rightBottom dt a{
+	font-size:24px;
+	color:#333333;
+	font-weight:bold;
+}
+#wrap .rightBottom dd{
+	font-size:14px;
+	font-weight:bold;
+	color:#333;
+}
+#footer{
+	background:url(../images/footer_bg.jpg) repeat-x;
+	height:100px;
+	
+}
+#footer p{
+	text-align:center;
+	color:#ffffff;
+	line-height:200%;
+}
+#footer .p1{
+	padding:20px 0 0 0;
+}
+#footer p a{
+	color:#ffffff;
+	text-decoration:underline;
+	margin:0 20px 0 0;
+}
+#footer p a.last{
+	margin:0;
+}
+
+/* submit页面 */
+
+#wrap .submit p{
+	font-size:18px;
+	margin:30px 0;
+}
+
+#wrap .submit label{
+	display:block;
+	color:#555;
+	font-size:14px;
+	margin:15px 0 3px 0;
+}
+#wrap .submit form input{
+	/* width:250px; 也可用size属性 */
+	height:20px;
+}
+#wrap .submit .btn_sub{
+	border:none;
+	display:inline-block;
+	margin:15px 15px 0 0;
+	cursor:pointer;
+	background:url(../images/default.png);
+	width:103px;
+	height:27px;
+	text-align:center;
+	line-height:27px;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:bold;
+}
+#wrap .submit .btn_sub:hover{
+	background:url(../images/d_hover.png);
+}
+
+
+
+
+
+
+
+

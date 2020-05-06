@@ -1,0 +1,31 @@
+@charset "utf-8";
+#b{
+	width:200px;
+	height:200px;
+	border-style:ridge;
+	border-width:10px;
+	border-color:red;
+	border-top-style:dashed;
+	border-radius:10px 20px 30px 40px;
+	background-color:silver
+}
+#a{
+	width:200px;
+	height:200px;
+	border:dashed blue;
+	margin-top:10px;
+	/* background:pink; */
+	/* background-image:url(images/1.jpg); */
+	/* background-size:cover; */
+	/* background-origin:content-box; */
+	/* background-clip:content-box; */
+	background: silver url(images/1.jpg) no-repeat scroll bottom/100% border-box content-box;
+}
+body{
+	background-color:silver;
+	/* background-repeat:no-repeat; */
+	/* background-position:100% 100%; */
+	background-size:200px 140px;
+	background-attachment:fixed;
+	
+}

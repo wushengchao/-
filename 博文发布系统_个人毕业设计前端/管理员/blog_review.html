@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8">
+	<title>审核</title>
+	<link rel="stylesheet" type="text/css" href="css/blog_review.css">
+</head>
+<body>
+	<div class="return"><a href="" onclick="window.history.go(-1);"><<返 回</a></div>
+	<section>
+		<form>
+			<table >
+				<tr>
+					<td><span class="type">标题</span></td>
+					<td><h2 class="title">今天是2017年12月9号，天气晴朗</h2></td>
+				</tr>
+				<tr>
+					<td style="vertical-align:top; padding-top:8px;"><span class="type">内容</span></td>
+					<td>
+						<div class="content-out">
+							<div class="content">
+								<p>今天是2017年12月9号，天气晴朗</p>
+								<p>今天是2017年12月9号，天气晴朗</p>
+								<p>今天是2017年12月9号，天气晴朗</p>
+								<p>今天是2017年12月9号，天气晴朗</p>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				<tr style="height:40px; color:#fff;">
+					<td><span class="type">分类</span></td>
+					<td>
+						<label>校园类<input type="radio" name="sort" value="0"></label>&nbsp;&nbsp;
+						<label>时事类<input type="radio" name="sort" value="1"></label>&nbsp;&nbsp;
+						<label>娱乐类<input type="radio" name="sort" value="2"></label>&nbsp;&nbsp;
+						<label>生活类<input type="radio" name="sort" value="3"></label>&nbsp;&nbsp;
+						<label>文体类<input type="radio" name="sort" value="4"></label>&nbsp;&nbsp;
+						<label>学术类<input type="radio" name="sort" value="5"></label>&nbsp;&nbsp;
+						<label>其他类<input type="radio" name="sort" value="6"></label>&nbsp;&nbsp;
+					</td>
+				</tr>
+				<tr><input type="hidden" name="blog_id" value="1"></tr>
+				<tr>
+					<td></td>
+					<td class="result">
+						<input type="submit" class="button succ" value="通过并提交">
+						<input type="button" class="button fail" value="不通过">
+					</td>
+				</tr>
+			</table>
+		</form>
+
+	</section>
+</body>
+</html>

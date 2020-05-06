@@ -1,0 +1,74 @@
+@charset "utf-8";
+@import url('basic.css');
+#main{
+	width:1263px;
+	margin:10px auto;
+	margin-bottom:10px;
+}
+aside{
+	width:280px;
+	height:940px;
+	float:left;
+	border-right:3px solid #ccc;	
+}
+aside .sort{
+	border-left:20px solid #B80000;
+}
+aside li{
+	
+	border-top:1px solid #ccc;
+	height:50px;
+	line-height: 50px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-align: center;
+	color:#666;
+
+}
+aside a:first-child li{
+	border-top:1px solid #ccc;
+}
+aside a:last-child li{
+	border-bottom:3px solid #ccc;
+}
+aside li.active{
+	background: #eee;
+	color:#B80000;
+	width:264px;
+	font-weight: bold;
+	border:none;
+}
+
+section{
+	width:940px;
+	height:;
+	float:right;
+}
+section .content{
+	
+}
+section .content h2{
+	width:938px;
+	height:35px;
+	line-height:35px;
+	font-size:16px;
+	background:#fff;
+	text-indent:10px;
+	border:1px solid #B80000;
+	border-top:10px solid #B80000;
+	color:#B80000;
+	opacity: 0.9;
+
+}
+section .content p{
+	height:130px;
+	border:1px solid #B80000;
+	border-top:none;
+	margin:0 0 10px 0;
+	overflow:hidden;
+	font-size:12px;
+	padding:10px;
+	text-indent:24px;
+	line-height:150%;
+	background:#fff;
+}

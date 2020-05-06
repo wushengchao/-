@@ -1,0 +1,33 @@
+@charset "utf-8";
+body{
+	width:960px;
+	margin:0 auto;
+	
+}
+header{
+	height:120px;
+	width:960px;
+	background-color:olive;
+	overflow:auto;
+	resize:both;
+}
+aside{
+	width:260px;
+	height:500px;
+	padding:10px;
+	border:5px solid red;
+	box-sizing:border-box;
+	background-color:purple;
+	float:left;
+}
+section{
+	width:700px;
+	height:500px;
+	background-color:blue;
+	float:right;
+}
+footer{
+	background-color:silver;
+	height:100px;
+	clear:both;
+}

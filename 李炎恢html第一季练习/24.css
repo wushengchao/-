@@ -1,0 +1,21 @@
+@chsraet 'utf-8';
+table{
+	/* width:400px; */
+	/* height:300px; */
+	text-align:center;
+	border-collapse:collapse;合并
+	/* border-spacing:0px; 间隙*/
+	/* caption-side:bottom; */
+	/* empty-cells:hide;将空白格边框隐藏 */
+	table-layout:fixed;
+}
+table tr th,table tr td{
+	border:1px solid red;
+}
+ul{
+	width:80px;
+	/* list-style-type:square; */
+	list-style-image:url(images/bullet.png);
+	/* list-style-position:inside; */
+	
+}

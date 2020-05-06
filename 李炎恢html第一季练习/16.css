@@ -1,0 +1,27 @@
+@charset "utf-8";
+/*ul>li:first-child{
+	color:red;
+}*/
+/*伪类需要加前置选择器限制范围*/
+ul>li:only-child{
+	color:red;
+}
+div>p:only-of-type{
+	color:red;
+}
+
+input:enabled{
+	border:1px solid red;
+}
+input:disabled{
+	border:2px solid blue;
+}
+:checked{
+	display:none;隐藏
+}
+ul>li:nth-last-child(2){
+	color:red;
+}
+div>p:nth-of-type(2){
+	color:red;
+}

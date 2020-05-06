@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<title>表单元素</title>
+	</head>
+	<body>
+		<form method="get" id="register" name="reg" target="_blank" autocomplete="on">
+			<fieldset>	
+				<legend>说明</legend>
+				<label>用户名：<input name="user" autofocus autocomplete="off"></label><br>
+				<label for="pw">密码</label><input type="password" name="password" id="pw"><br>
+			</fieldset>
+				<button disabled>提交</button>
+				<input type="submit" value="提交">
+				<input type="reset" value="重置" disabled>
+				<button type="reset">重置</button>
+		</form>
+		电子邮件：<input name="email" form="register"> <!--表单外关联-->
+		<br><br><hr><br>
+			<form action="http://www.li.cc">	
+				<input type="text" maxlength="5" size="40" value="wsc" readonly><br>
+				<input type="text" list="abc"><br>
+				<input type="text" required><br>
+				<input type="password" placeholder="请输入密码" required><br>
+			<!--<input type="search"><br>
+				<input type="number" min="3" max="16"><br>
+				<input type="date"><br>
+				<input type="color">
+				music<input type="checkbox" name="interest" value="music">
+				sport<input type="checkbox" name="interest" value="sport"><br>
+				男<input type="radio" name="sex" value="boy" checked> 
+				女<input type="radio" name="sex" value="girl"> 
+				<input type="image" src="images/1.jpg">-->
+				
+				<input type="file" accept="image/jpg">
+				<button>提交</button>
+			</form>
+			<datalist id="abc">
+				<!--<option value="1">吴</option>-->
+				<option value="圣">
+				<option value="3" label="潮">
+			</datalist>
+			<br><hr><br>
+			<form>
+				<select name="fruit" multiple>
+					<option value="1">apple</option>
+					<option value="2">banana</option>
+					<option value="3">watermelon</option>
+				</select>
+				<button>提交</button>
+			</form>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

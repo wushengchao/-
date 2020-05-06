@@ -1,0 +1,14 @@
+@charset 'utf-8';
+body{
+	margin:100px;
+}
+#a{
+	transform-style:preserve-3d;
+	perspective:1500px;
+}
+
+img{
+	/* transform:translate3d(0px,0px,100px); */
+	transform:scale3d(1.5,1.5,2.5) rotatex(80deg);
+	box-shadow:2px 2px 2px gray;
+}

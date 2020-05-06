@@ -1,0 +1,13 @@
+@charset "utf-8";
+div{
+	font-size:20px;
+	/* text-shadow:1px 1px 1px red; */
+	width:170px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	background-color:silver;
+	-webkit-text-stroke:1px red;
+	-webkit-text-stroke-color:orange;
+	font-family:黑体;
+}

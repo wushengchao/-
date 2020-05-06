@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/**{
+	border:1px solid red;
+}*/
+/*html，body也能匹配到，不建议使用通用选择器*/
+
+/*p{
+	color:red;
+}
+#abc{
+	color:green;
+}
+.abc{
+	color:blue;
+}
+span.abc{
+	color:orange;
+}
+.def{
+	font-size:30px;
+}*/
+[href]{
+	color:red;
+}
+[type="text"]{
+	border:1px solid red;
+}
+[href^="http"]{
+	color:yellow;
+}
+[href$=".cn"]{
+	color:#D3C6FD;
+}
+[href*="baidu"]{
+	color:#345733;
+}
+p b{ 	//p>b的话必须b是p的下一层
+	color:red;
+}
+
+ul>li{
+	border:1px solid red;
+}
+span+br+a{
+	color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

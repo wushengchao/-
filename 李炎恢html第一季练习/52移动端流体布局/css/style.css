@@ -1,0 +1,409 @@
+@charset "utf-8";
+html{
+	font-size:625%;
+}
+body,h1,h3,h4,p,h2,ul,ol,figure,form{
+	margin:0;
+	padding:0;
+}
+div,figure,figcaption{
+	box-sizing:border-box;
+}
+ul,ol{
+	list-style:outside none none;
+}
+body{
+	/* background-color:#f5f5f5; */
+	font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft YaHei",SimHei,"宋体",simsun,sans-serif;
+	font-size:0.16rem;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+a{
+	text-decoration:none;
+}
+.clearfix:after{
+	content:'.';
+	visibility:hidden;
+	height:0;
+	clear:both;
+	display:block;
+}
+.none{
+	display:none;
+}
+#header{
+	width:100%;
+	height:0.45rem;
+	line-height:0.45rem;
+	font-size:0.16rem;
+	background-color:#333;
+	position:fixed;
+	top:0;
+	z-index:999;
+}
+#header .link li{
+	float:left;
+	width:25%;
+	text-align:center;
+}
+#header .link li a{
+	color:#eee;
+	display:block;
+}
+#header .link .active,
+#header .link li a:hover{
+	background-color:#000;
+}
+#ad{
+	max-width:6.4rem;
+	margin:0 auto;
+	padding:.45rem 0 0 0;
+}
+#search{
+	background-color:#ddd;
+	max-width:6.4rem;
+	height:.33rem;
+	margin:0 auto;
+	padding-top:.03rem;
+	position:relative;
+	
+}
+#search .search{
+	width:95%;
+	height:.27rem;
+	font-size:.14rem;
+	margin:0 auto;
+	padding:0 .05rem;
+	display:block;
+	outline:none;
+	border-radius:.04rem;
+	border:none;
+}
+#search .button{
+	position:absolute;
+	top:.03rem;
+	right:1%;
+	width:.5rem;
+	height:.27rem;
+	outline:none;
+	background-color:#eee;
+	color:#666;
+	border-top-right-radius:.04rem;
+	border-bottom-right-radius:.04rem;
+	border:none;
+	font-size:.14rem;
+	/* display:block; */
+}
+#tour{
+	text-align:center;
+	margin:0 auto;
+	background-color:#fafafa;
+	max-width:6.4rem;
+	padding:.1rem 0 0 0;
+}
+#tour h2{
+	color:#666;
+	font-size:.26rem;
+}
+#tour h3{
+	font-weight:normal;
+	font-size:.16rem;
+	padding:.05rem 0 .1rem 0;
+}
+#tour .container{
+	background-color:#eee;
+	height:11.8rem;
+}
+#tour figure{
+	width:50%;
+	float:left;
+	
+	padding:0 0 .05rem 0;
+	font-size:.16rem;
+}
+#tour figure img{
+	padding:.02rem;
+	/* vertical-align:middle; */
+	/* border-radius:.04rem; */
+	
+}
+#tour figcaption{
+	color:#666;
+	padding:.02rem .05rem;
+	text-align:left;
+}
+#tour figcaption h4{
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+	font-weight:normal;
+}
+#tour figcaption p{
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+}
+#tour .info{
+	padding:.1rem 0 0 0;
+	font-size:.16rem;
+}
+
+#tour .price{
+	color:#f60;
+}
+
+#tour .price strong{
+	letter-spacing:.01rem;
+}
+#tour .sat{
+	color:#999;
+	font-style:normal;
+	float:right;
+	
+}
+#headline{
+	max-width:6.4rem;
+	margin:0 auto;
+	padding:.45rem 0 0 0;
+	position:relative;
+}
+#headline hgroup{
+	position:absolute;
+	top:48%;
+	left:10%;
+	color:#eee;
+}
+#headline h2{
+	font-size:.22rem;
+	letter-spacing:.01rem;
+}
+#headline  h3{
+	font-size:.14rem;
+	letter-spacing:.01rem;
+}
+.list{
+	color:#666;
+	max-width:6.4rem;
+	margin:.15rem auto;
+	padding:0 .1rem;
+	font-size: .16rem;
+}
+.list h2{
+	font-size:.2rem;
+	border-bottom:.01rem dashed #999;
+	padding-bottom:.15rem;
+}
+.about p{
+	line-height:2;
+	margin:.2rem 0;
+}
+.about address{
+	font-style:normal;
+	line-height:1.6;
+}
+.about address ul{
+	margin:.1rem 0;
+}
+.information figure:after{
+	content:'.';
+	visibility:hidden;
+	height:0;
+	clear:both;
+	display:block;
+}
+.information figure{
+	border:1px solid #eee;
+	margin:.15rem 0 0 0;
+	position:relative;
+}
+.information figure img{
+	width:50%;
+	float:left;
+}
+.information  figure figcaption{
+	float:right;
+	width:48%;
+}
+.information .title{
+	border: none;
+	padding:0 0 .05rem 0;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.information .small_title{
+	font-weight:normal;
+	display:-webkit-box;
+	-webkit-line-clamp:2;
+	-webkit-box-orient:vertical;
+	overflow:hidden;
+}
+.information .price{
+	color:#F60;
+	position:absolute;
+	bottom:0;
+}
+.information .price strong{
+	font-size:.26rem;
+}
+
+.ticket .type{
+	margin:.2rem 0 .1rem 0;
+}
+.ticket .type p{
+	margin:0;
+}
+.ticket .type mark{
+	background-color:#458b00;
+	color:#fff;
+	padding:.05rem .08rem;
+	border-radius:.04rem;
+	margin:0 .1rem 0 .16rem;
+	cursor:pointer;
+}
+.ticket .form{
+	/* font-size:.2rem; */
+	border:none;
+}
+
+.ticket .form p{
+	margin:.1rem 0;
+}
+.ticket .form label{
+	display:block;
+	margin:0 0 .05rem 0;
+	/* font-size:.16rem; */
+}
+.ticket .form input{
+	width:97%;
+	border:.01rem solid #ccc;
+	color:#666;
+	border-radius:.04rem;
+	padding:.05rem;
+}
+
+.ticket .submit{
+	width:30%;
+	background-color:#F60;
+	color:#fff;
+	text-align:center;
+	border-radius:.04rem;
+	text-align:center;
+	border:none;
+	cursor:pointer;
+	padding:.1rem;
+	margin: .2rem auto 0 auto;
+	display:block;
+}
+.ticket .new{
+	margin:.2rem 0 0 0;
+}
+.ticket ul{
+	margin:.2rem 0 0 0;
+}
+.ticket li{
+	display:inline-block;
+	padding:.05rem .1rem;
+}
+.ticket li:first-child{
+	padding:5px 10px 5px 0;
+}
+.ticket li:nth-child(2){
+	background-color:#458b00;
+	color:#fff;
+	border-radius:4px;
+	/* cursor:pointer; */
+}
+.ticket table{
+	width:100%;
+	border-collapse:collapse;
+	margin:.2rem 0 0 0;
+	border:.01rem solid #ddd;
+}
+.ticket table th{
+	border-bottom:.01rem solid #ddd;
+	padding:.1rem 0;
+	/* text-align:center; */
+	background:#F4F4F4;
+}
+.ticket table td{
+	border-bottom:.01rem solid #ddd;
+	padding:.1rem 0;
+	text-align:center;
+}
+.ticket table tr:nth-child(2n){
+	background-color:#fafafa;
+}
+.ticket table tr:hover{
+	background-color:#efefef;
+}
+.ticket .price{
+	color:#F60;
+}
+.ticket  .reserve{
+	background-color:#F60;
+	color:#fff;
+	display:inline-block;
+	text-align:center;
+	border-radius:.04rem;
+	padding:.05rem .1rem;
+	margin:0 auto;
+}
+.ticket .more{
+	color:#666;
+	text-align:center;
+	margin:0 auto;
+	cursor:pointer;
+	display:block;
+}
+#footer{
+	max-width:6.4rem;
+	background-color:#222;
+	padding:0.1rem 0;
+	color:#777;
+	text-align:center;
+	margin:0 auto;
+	
+}
+#footer .top{
+	padding-bottom:0.05rem;
+}
+/* @media (min-width: 480px) and (max-width: 640px) { */
+	/* #tour h2,.information .price strong { */
+		/* font-size: .26rem; */
+	/* } */
+	/* #tour h3, #footer, #tour figcaption, #tour .info, .list { */
+		/* font-size: .16rem; */
+	/* } */
+	/* #headline h2 { */
+		/* font-size: .22rem; */
+	/* } */
+	/* #headline h3 { */
+		/* font-size: .14rem; */
+	/* }	 */
+	/* .list h2 { */
+		/* font-size: .2rem; */
+	/* } */
+/* } */
+
+
+@media (max-width:480px){
+	#tour h2,#headline hgroup h2,.information .price strong{
+		font-size:.18rem;
+	}
+	#tour h3,#tour figure,#tour .info,.list{
+		font-size:.14rem;
+	}
+	#footer,#headline hgroup h3{
+		font-size:.12rem;
+	}
+	.list h2{
+		font-size:.17rem;
+	}
+	.min{
+		display:none;
+	}
+}

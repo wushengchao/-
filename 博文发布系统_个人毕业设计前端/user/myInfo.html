@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>个人中心</title>
+	<link rel="stylesheet" type="text/css" href="css/myInfo.css">
+	<script type="text/javascript" src="js/tool.js"></script>
+	<script type="text/javascript" src="js/base.js"></script>
+	<script type="text/javascript" src="js/base_drag.js"></script>
+	<script type="text/javascript" src="js/base_form.js"></script>
+	<script type="text/javascript" src="js/myInfo.js"></script>
+	
+</head>
+<body>
+	<div id="screen" style="display:none"></div>
+	<header>
+		<img class="icon" src="images/icon1.jpg">
+		<a href="../index.html"><span class="return"><<返回首页</span></a>
+		<h2><span class="username">吴wsc</span>　 的个人中心</h2>
+		
+	</header>
+	<nav>
+		<ul>
+			<li class="other"><a href="myBlogList.html">博文列表</a></li>
+			<li class="active"><a href="#">个人信息</a></li>
+			<li class="other"><a href="#">音乐收藏</a></li>
+			<li class="other"><a href="#">我的相册</a></li>
+			
+		</ul>
+	</nav>
+	<div id="main">
+		<section>
+			<div class="write">编辑个人信息</div>
+			<div class="user-info">
+				<table>
+					<tr>
+						<td>姓　　名：</td>
+						<td>吴圣潮</td>
+					</tr>
+					<tr>
+						<td>性　　别：</td>
+						<td>男</td>
+					</tr>
+					<tr>
+						<td>学　　院：</td>
+						<td>信息工程学院</td>
+					</tr>
+					<tr>
+						<td>生　　日：</td>
+						<td>1995-08-26</td>
+					</tr>
+					<tr>
+						<td>邮　　箱：</td>
+						<td>736504376@qq.com</td>
+					</tr>
+					<tr>
+						<td>联系方式：</td>
+						<td>17858753937</td>
+					</tr>
+					<tr>
+						<td>个人简介：</td>
+						<td>我真的很不错!</td>
+					</tr>
+				</table>
+			</div>
+		</section>
+		<aside>
+			<div class="quantity">
+				<ul>
+					<li>
+						<p>209</p>
+						<span>博文</span>
+					</li>
+					<li>
+						<p>419</p>
+						<span>照片</span>
+					</li>
+					<li>
+						<p>199091</p>
+						<span>访问量</span>
+					</li>
+				</ul>
+			</div>	
+
+		</aside>
+		<div id="reg">
+			<h2>编辑个人信息<img class="close" src="images/close.png"></h2>
+			<form name="reg">
+				<dl>
+					<dd>姓　　名 ： 
+						<input type="text" name="user" class="text" autocomplete="off" >
+					</dd>
+					<dd>性　　别 ：
+						<select>
+							<option></option>
+							<option selected="selected">男</option>
+							<option>女</option>
+						</select>
+					</dd>
+					<dd>学　　院 ： 
+						<input type="text" name="college" class="text" autocomplete="off" >
+					</dd>
+					<dd class="birthday">生　　日 ：
+						<select name="year">
+							<option value="0">&nbsp;年 </option>
+						</select>&nbsp; -&nbsp;
+						<select name="month">
+							<option value="0">&nbsp;月 </option>
+						</select>&nbsp; -&nbsp;
+						<select name="day">
+							<option value="0">&nbsp;日 </option>
+						</select> 	
+					</dd>
+					<dd>电子邮件 ： <input type="text" name="email" class="text" autocomplete="off">
+						<span class="succ succ_email">可用！</span>
+						<ul class="all_email">
+							<li><span></span>@qq.com</li>
+							<li><span></span>@163.com</li>
+							<li><span></span>@sohu.com</li>
+							<li><span></span>@sina.com</li>
+							<li><span></span>@gmail.com</li>
+						</ul>
+					</dd>
+					
+					<dd style="height:105px;"><span style="vertical-align:85px;">个人简介 ：</span> <textarea name="ps"></textarea></dd>
+					<dd class="ps">还可以输入<strong class="num">200</strong>字</dd>
+					<dd style="display:none;" class="ps">已超过<strong class="num">35</strong>字，<span class="clear">清尾</span></dd>
+					<dd style="padding:0 0 0 72px"><input type="button" name="sub" class="submit" value="提  交"></dd>
+				</dl>
+			</form>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="clearfix"></div> 
+	<footer>
+		<div class="top">
+			<p>中国·浙江 湖州市二环东路759号（313000） 浙ICP备10025412号 浙公网安备 33050202000195号</p>
+		</div>
+		<!-- <div class="bottom">
+			<p><a href="#">移动端</a>　｜　<a href="#">PC端</a>　｜　<a href="#">平板</a></p>
+		</div> -->
+	</footer>
+	<div id="loading">
+		<p>加载中</p>
+	</div>
+	<div id="success">
+		<p>成功</p>
+	</div>
+</body>
+</html>

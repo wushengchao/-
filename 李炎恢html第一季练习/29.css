@@ -1,0 +1,16 @@
+@charset 'utf-8';
+div{
+	width:400px;
+	height:400px;
+	/* border-image-source:url(images/border.png); */
+	/* border-image-width:27px; */
+	/* border-image-slice:27; */
+	/* border-image-repeat:round; */
+	/* background-color:green; */
+	/* border-image-outset:27px; */
+	/* border-width:81px; */
+	/* border-image-source:url(images/button.png); */
+	/* border-image-width:10px; */
+	/* border-image-slice:10 fill; */
+	border-image:url(images/border.png) 27/27px round;
+}
