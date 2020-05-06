@@ -1,0 +1,25 @@
+@charset "utf-8";
+body,h2,h3,form,a{
+	text-align: center;
+	text-decoration: none;
+	color: #666;
+	font-weight: normal;
+	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft YaHei",SimHei,"宋体",simsun,sans-serif;
+}
+.text,.btn{
+ 	height: 25px;
+ 	border-radius: 4px; 
+ 	border-width: 1px;
+	border-color: #aaa;
+	letter-spacing: 2px;
+	border-style: solid;
+}
+.text{
+	padding-left:3px;
+}
+.btn{
+	background: none;
+	height: 29px;
+	margin: 0 auto;
+	padding:0;
+}

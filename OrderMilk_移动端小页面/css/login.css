@@ -1,0 +1,31 @@
+@charset "utf-8";
+@import url("basic.css");
+#login{
+	width:210px;
+	margin: 0 auto;
+}
+.btn{
+	width:50px;
+	background: none;
+}
+#phoneNum{
+	width:200px;
+}
+.info{
+	margin-bottom: 25px;
+	text-align: left;
+}
+.info input{
+	width:140px;
+}
+#sub{
+	margin-top: 30px;
+}
+
+#login-btn{
+	width:150px;
+}
+#regLink{
+	margin: 20px auto;
+	text-align: center;
+}
